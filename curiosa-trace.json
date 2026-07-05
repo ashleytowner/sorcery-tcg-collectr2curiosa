@@ -1,0 +1,2507 @@
+[
+  {
+    "kind": "meta",
+    "timestamp": 1780406676406,
+    "type": "start",
+    "url": "https://curiosa.io/collection"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406679000,
+    "type": "click"
+  },
+  {
+    "key": "s",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680250,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680253,
+    "type": "input",
+    "value": "s"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680259,
+    "type": "attributes"
+  },
+  {
+    "key": "w",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680484,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680485,
+    "type": "input",
+    "value": "sw"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680487,
+    "type": "attributes"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680555,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680556,
+    "type": "input",
+    "value": "swa"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680558,
+    "type": "attributes"
+  },
+  {
+    "key": "m",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680620,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680621,
+    "type": "input",
+    "value": "swam"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680622,
+    "type": "attributes"
+  },
+  {
+    "key": "p",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680703,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680704,
+    "type": "input",
+    "value": "swamp"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swamp"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swamp\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406680705,
+    "type": "attributes"
+  },
+  {
+    "api": "fetch",
+    "duration": 289,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":[{\"label\":\"Croaking Swamp - Gothic\",\"value\":\"cmit3kebc00b7jl0450met11v\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"cmit3kebc00b7jl0450met11v\",\"slug\":\"got-croaking_swamp-b-s\",\"updatedAt\":\"2026-03-17T07:22:33.568Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-croaking_swamp-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"An Ordinary Site and ribbiting ruckus\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"setCardId\":\"cmit3kea100b6jl04p8w40kii\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmit3kea100b6jl04p8w40kii\",\"slug\":\"got-croaking_swamp\",\"type\":\"Site\",\"category\":\"Site\",\"rarity\":\"Ordinary\",\"slot\":\"Ordinary\",\"rulesText\":\"Genesis → You may pay (1) to summon a Frog token here.\",\"cost\":null,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":1,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"},\"pickles\":[],\"card\":{\"id\":\"cmit3ke8100b5jl046ai8khrq\",\"slug\":\"croaking_swamp\",\"name\":\"Croaking Swamp\",\"type\":\"Site\",\"category\":\"Site\",\"rarity\":\"Ordinary\",\"slot\":\"Ordinary\",\"rulesText\":\"Genesis → You may pay (1) to summon a Frog token here.\",\"cost\":null,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":1,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":7952,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3kebc00b7jl0450met11v\",\"slug\":\"got-croaking_swamp-b-s\",\"updatedAt\":\"2026-03-17T07:22:33.568Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-croaking_swamp-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"An Ordinary Site and ribbiting ruckus\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"setCardId\":\"cmit3kea100b6jl04p8w40kii\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmit3kea100b6jl04p8w40kii\",\"slug\":\"got-croaking_swamp\",\"type\":\"Site\",\"category\":\"Site\",\"rarity\":\"Ordinary\",\"slot\":\"Ordinary\",\"rulesText\":\"Genesis → You may pay (1) to summon a Frog token here.\",\"cost\":null,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":1,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"}},{\"id\":\"cmit3kecb00b8jl04kha36xvm\",\"slug\":\"got-croaking_swamp-b-f\",\"updatedAt\":\"2026-03-17T07:22:33.702Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-croaking_swamp-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"An Ordinary Site and ribbiting ruckus\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"setCardId\":\"cmit3kea100b6jl04p8w40kii\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmit3kea100b6jl04p8w40kii\",\"slug\":\"got-croaking_swamp\",\"type\":\"Site\",\"category\":\"Site\",\"rarity\":\"Ordinary\",\"slot\":\"Ordinary\",\"rulesText\":\"Genesis → You may pay (1) to summon a Frog token here.\",\"cost\":null,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":1,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmit3ke8100b5jl046ai8khrq\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"}}],\"reverse\":null}}}},{\"label\":\"Croaking Swamp - Gothic (Foil)\",\"value\":\"cmit3kecb00b8jl04kha36xvm\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"cmit3kecb00b8jl04kha36xvm\",\"slug\":\"got-croak…[truncated]",
+    "status": 200,
+    "timestamp": 1780406681496,
+    "url": "/api/trpc/search.variants?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22swamp%22%7D%7D%7D"
+  },
+  {
+    "key": "Backspace",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swamp"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swamp\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683543,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swamp"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swamp\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683546,
+    "type": "input",
+    "value": "swam"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683547,
+    "type": "attributes"
+  },
+  {
+    "key": "Backspace",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683703,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swam"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swam\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683703,
+    "type": "input",
+    "value": "swa"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683704,
+    "type": "attributes"
+  },
+  {
+    "key": "p",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683903,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683904,
+    "type": "input",
+    "value": "swap"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406683905,
+    "type": "attributes"
+  },
+  {
+    "api": "fetch",
+    "duration": 327,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":[{\"label\":\"Swap - Gothic\",\"value\":\"cmit3liy3017yjl04k377nxba\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"},\"pickles\":[],\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got…[truncated]",
+    "status": 200,
+    "timestamp": 1780406684734,
+    "url": "/api/trpc/search.variants?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22swap%22%7D%7D%7D"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406686083,
+    "type": "change",
+    "value": "swap"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "aria-disabled": "false",
+        "aria-selected": "true",
+        "class": "relative w-full cursor-pointer select-none items-center py-2 px-4 outline-none data-[selected='true']:bg-slate-100 data-…",
+        "cmdk-item": "",
+        "data-disabled": "false",
+        "data-selected": "true",
+        "data-value": "cmit3liy3017yjl04k377nxba",
+        "id": "radix-:r59:",
+        "role": "option"
+      },
+      "classes": "relative w-full cursor-pointer select-none items-center py-2 px-4 outline-none data-[selected='true']:bg-slate-100 data-[selected=true]:text-slate-900",
+      "id": "radix-:r59:",
+      "outerHTML": "<div class=\"relative w-full cursor-pointer select-none items-center py-2 px-4 outline-none data-[selected='true']:bg-slate-100 data-[selected=true]:text-slate-900\" id=\"radix-:r59:\" cmdk-item=\"\" role=\"option\" aria-disabled=\"false\" aria-selected=\"true\" data-disabled=\"false\" data-selected=\"true\" data-value=\"cmit3liy3017yjl04k377nxba\"><span class=\"w-full line-clamp-1\"><span class=\"w-full flex justify-between items-center\"><span class=\"line-clamp-1\">Swap - Gothic</span></span></span></div>",
+      "path": "div#radix-:r59:",
+      "tag": "div",
+      "text": "Swap - Gothic"
+    },
+    "timestamp": 1780406686167,
+    "type": "click"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406686202,
+    "type": "attributes"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406687649,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406687874,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406688090,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none d…"
+      },
+      "classes": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]",
+      "id": null,
+      "outerHTML": "<button class=\"rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]\">Save</button>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.animate-in.fade-in:nth-of-type(2) > button.rounded-md.inline-flex:nth-of-type(1)",
+      "tag": "button",
+      "text": "Save"
+    },
+    "timestamp": 1780406689099,
+    "type": "click"
+  },
+  {
+    "api": "fetch",
+    "duration": 579,
+    "kind": "network",
+    "method": "POST",
+    "requestBody": "{\"0\":{\"json\":{\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"variantId\":\"cmit3liy3017yjl04k377nxba\",\"quantity\":3,\"notes\":null},\"meta\":{\"values\":{\"notes\":[\"undefined\"]}}}}",
+    "responseBody": "[{\"result\":{\"data\":{\"json\":null,\"meta\":{\"values\":[\"undefined\"]}}}}]",
+    "status": 200,
+    "timestamp": 1780406689696,
+    "url": "/api/trpc/collection.updatePickle?batch=1"
+  },
+  {
+    "api": "fetch",
+    "duration": 350,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":{\"pickles\":[{\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmi7xo2mm0062s67yewx2eoz8\",\"slug\":\"pro-swap-op-s\",\"updatedAt\":\"2026-03-17T07:20:45.788Z\",\"printedAt\":\"2025-08-01T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/pro-swap-op-s.png\",\"finish\":\"Standard\",\"product\":\"Organized_Play\",\"typeText\":\"Exceptional Magic of unconventional exchange\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmi7xo2it0061s67yeo3lit6s\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmi7xo2it0061s67yeo3lit6s\",\"slug\":\"pro-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmi7xncgf0000s67yoatdq7b9\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmi7xncgf0000s67yoatdq7b9\",\"code\":\"pro\",\"status\":\"Released\",\"releasedAt\":\"2025-11-20T22:09:50.983Z\",\"name\":\"Promotional\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"}}],\"re…[truncated]",
+    "status": 200,
+    "timestamp": 1780406690050,
+    "url": "/api/trpc/collection.search,collection.count?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22sort%22%3A%22latest%22%2C%22set%22%3A%22*%22%2C%22filters%22%3A%5B%5D%2C%22limit%22%3A50%2C%22direction%22%3A%22forward%22%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22filters%22%3A%5B%5D%2C%22set%22%3A%22*%22%7D%7D%7D"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406690766,
+    "type": "click"
+  },
+  {
+    "key": "w",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691266,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691267,
+    "type": "input",
+    "value": "w"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691270,
+    "type": "attributes"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691330,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691331,
+    "type": "input",
+    "value": "wa"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "wa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"wa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691332,
+    "type": "attributes"
+  },
+  {
+    "key": "Backspace",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "wa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"wa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691861,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "wa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"wa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691863,
+    "type": "input",
+    "value": "w"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406691864,
+    "type": "attributes"
+  },
+  {
+    "key": "Backspace",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692030,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "w"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"w\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692033,
+    "type": "input",
+    "value": ""
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692036,
+    "type": "attributes"
+  },
+  {
+    "key": "s",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692134,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692135,
+    "type": "input",
+    "value": "s"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692137,
+    "type": "attributes"
+  },
+  {
+    "api": "fetch",
+    "duration": 327,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":[{\"label\":\"Avatar of Water - Alpha | Preconstructed Deck\",\"value\":\"clm4r3hzg0168e0v5epn66p6f\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"clm4r3hzg0168e0v5epn66p6f\",\"slug\":\"alp-avatar_of_water-pd-s\",\"updatedAt\":\"2026-03-17T07:03:17.213Z\",\"printedAt\":\"2023-06-22T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/alp-avatar_of_water-pd-s.png\",\"finish\":\"Standard\",\"product\":\"Preconstructed_Deck\",\"typeText\":\"Your Avatar of ebb and flow\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"setCardId\":\"clm4r3b1w0166e0v52oq89smi\",\"artistId\":\"cm1sb7izx006rxxa1pu8mz2er\",\"setCard\":{\"id\":\"clm4r3b1w0166e0v52oq89smi\",\"slug\":\"alp-avatar_of_water\",\"type\":\"Avatar\",\"category\":\"Avatar\",\"rarity\":\"Elite\",\"slot\":\"Elite\",\"rulesText\":\"Tap → Play or draw a site.\\n\\nTap → Flood a site adjacent to your body of water until you do so again. You may teleport there.\",\"cost\":null,\"attack\":1,\"defense\":1,\"life\":20,\"waterThreshold\":0,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"clm4i28ww000024v50wdn1bqz\",\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"set\":{\"id\":\"clm4i28ww000024v50wdn1bqz\",\"code\":\"alp\",\"status\":\"Released\",\"releasedAt\":\"2023-04-19T00:00:00.000Z\",\"name\":\"Alpha\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7izx006rxxa1pu8mz2er\",\"slug\":\"severine_pineaux\",\"name\":\"Séverine Pineaux\"},\"pickles\":[],\"card\":{\"id\":\"clm4r35bw0165e0v5bvuo6cgh\",\"slug\":\"avatar_of_water\",\"name\":\"Avatar of Water\",\"type\":\"Avatar\",\"category\":\"Avatar\",\"rarity\":null,\"slot\":\"Elite\",\"rulesText\":\"Tap → Play or draw a site.\\r\\n\\r\\nTap → Flood a site adjacent to your body of water until you do so again. You may teleport there.\",\"cost\":null,\"attack\":1,\"defense\":1,\"life\":20,\"waterThreshold\":0,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":503,\"elements\":[{\"id\":\"none\",\"name\":\"None\"}],\"variants\":[{\"id\":\"cmi7xnwx7004ts67ysrj7emz8\",\"slug\":\"pro-avatar_of_water-op-rf\",\"updatedAt\":\"2026-03-17T07:20:05.513Z\",\"printedAt\":\"2025-08-01T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/pro-avatar_of_water-op-rf.png\",\"finish\":\"Rainbow\",\"product\":\"Organized_Play\",\"typeText\":\"Your Avatar’s fortunes flowed where its enemy’s ebbed\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"setCardId\":\"cmi7xnwsx004ss67ygqfeydj5\",\"artistId\":\"cm1sb7izx006rxxa1pu8mz2er\",\"setCard\":{\"id\":\"cmi7xnwsx004ss67ygqfeydj5\",\"slug\":\"pro-avatar_of_water\",\"type\":\"Avatar\",\"category\":\"Avatar\",\"rarity\":null,\"slot\":\"Unique\",\"rulesText\":\"Tap → Play or draw a site.\\r\\n\\r\\nTap → Flood a site adjacent to your body of water until you do so again. You may teleport there.\",\"cost\":null,\"attack\":1,\"defense\":1,\"life\":20,\"waterThreshold\":0,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmi7xncgf0000s67yoatdq7b9\",\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"set\":{\"id\":\"cmi7xncgf0000s67yoatdq7b9\",\"code\":\"pro\",\"status\":\"Released\",\"releasedAt\":\"2025-11-20T22:09:50.983Z\",\"name\":\"Promotional\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7izx006rxxa1pu8mz2er\",\"slug\":\"severine_pineaux\",\"name\":\"Séverine Pineaux\"}},{\"id\":\"clm4r3cd60167e0v5ed1dcl1s\",\"slug\":\"alp-avatar_of_water-b-f\",\"updatedAt\":\"2026-03-17T07:03:17.084Z\",\"printedAt\":\"2023-06-22T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/alp-avatar_of_water-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Your Avatar of ebb and flow\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"setCardId\":\"clm4r3b1w0166e0v52oq89smi\",\"artistId\":\"cm1sb7izx006rxxa1pu8mz2er\",\"setCard\":{\"id\":\"clm4r3b1w0166e0v52oq89smi\",\"slug\":\"alp-avatar_of_water\",\"type\":\"Avatar\",\"category\":\"Avatar\",\"rarity\":\"Elite\",\"slot\":\"Elite\",\"rulesText\":\"Tap → Play or draw a site.\\n\\nTap → Flood a site adjacent to your body of water until you do so again. You may teleport there.\",\"cost\":null,\"attack\":1,\"defense\":1,\"life\":20,\"waterThreshold\":0,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"clm4i28ww000024v50wdn1bqz\",\"cardId\":\"clm4r35bw0165e0v5bvuo6cgh\",\"set\":{\"id\":\"clm4i28ww000024v50wdn1bqz\",\"code\":\"alp\",\"status\":\"Released\",\"releasedAt\":\"20…[truncated]",
+    "status": 200,
+    "timestamp": 1780406692161,
+    "url": "/api/trpc/search.variants?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22wa%22%7D%7D%7D"
+  },
+  {
+    "key": "w",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692324,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692326,
+    "type": "input",
+    "value": "sw"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692327,
+    "type": "attributes"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692404,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692405,
+    "type": "input",
+    "value": "swa"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692406,
+    "type": "attributes"
+  },
+  {
+    "key": "p",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692525,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692526,
+    "type": "input",
+    "value": "swap"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406692527,
+    "type": "attributes"
+  },
+  {
+    "api": "fetch",
+    "duration": 364,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":[{\"label\":\"Swap - Gothic\",\"value\":\"cmit3liy3017yjl04k377nxba\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"},\"pickles\":[{\"id\":\"cmpwo69pz00oj04l4o7fad5v1\",\"createdAt\":\"2026-06-02T13:24:49.460Z\",\"updatedAt\":\"2026-06-02T13:24:49.460Z\",\"quantity\":3,\"notes\":null,\"list\":null,\"collectionId\":\"cmpof0t2d00ip04l5hwx5kp3v\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"variantId\":\"cmit3liy3017yjl04k377nxba\"}],\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another targe…[truncated]",
+    "status": 200,
+    "timestamp": 1780406693392,
+    "url": "/api/trpc/search.variants?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22swap%22%7D%7D%7D"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406694208,
+    "type": "change",
+    "value": "swap"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "w-full flex justify-between items-center"
+      },
+      "classes": "w-full flex justify-between items-center",
+      "id": null,
+      "outerHTML": "<span class=\"w-full flex justify-between items-center\"><span class=\"line-clamp-1\">Swap - Gothic (Foil)</span></span>",
+      "path": "div#radix-:r5q: > span.w-full.line-clamp-1 > span.w-full.flex",
+      "tag": "span",
+      "text": "Swap - Gothic (Foil)"
+    },
+    "timestamp": 1780406694316,
+    "type": "click"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406694346,
+    "type": "attributes"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406695683,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406695891,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none d…"
+      },
+      "classes": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]",
+      "id": null,
+      "outerHTML": "<button class=\"rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]\">Save</button>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.animate-in.fade-in:nth-of-type(2) > button.rounded-md.inline-flex:nth-of-type(1)",
+      "tag": "button",
+      "text": "Save"
+    },
+    "timestamp": 1780406696840,
+    "type": "click"
+  },
+  {
+    "api": "fetch",
+    "duration": 922,
+    "kind": "network",
+    "method": "POST",
+    "requestBody": "{\"0\":{\"json\":{\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"variantId\":\"cmit3liyt017zjl04vye16qef\",\"quantity\":2,\"notes\":null},\"meta\":{\"values\":{\"notes\":[\"undefined\"]}}}}",
+    "responseBody": "[{\"result\":{\"data\":{\"json\":null,\"meta\":{\"values\":[\"undefined\"]}}}}]",
+    "status": 200,
+    "timestamp": 1780406697772,
+    "url": "/api/trpc/collection.updatePickle?batch=1"
+  },
+  {
+    "api": "fetch",
+    "duration": 245,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":{\"pickles\":[{\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmi7xo2mm0062s67yewx2eoz8\",\"slug\":\"pro-swap-op-s\",\"updatedAt\":\"2026-03-17T07:20:45.788Z\",\"printedAt\":\"2025-08-01T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/pro-swap-op-s.png\",\"finish\":\"Standard\",\"product\":\"Organized_Play\",\"typeText\":\"Exceptional Magic of unconventional exchange\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmi7xo2it0061s67yeo3lit6s\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmi7xo2it0061s67yeo3lit6s\",\"slug\":\"pro-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmi7xncgf0000s67yoatdq7b9\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmi7xncgf0000s67yoatdq7b9\",\"code\":\"pro\",\"status\":\"Released\",\"releasedAt\":\"2025-11-20T22:09:50.983Z\",\"name\":\"Promotional\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"}}],\"re…[truncated]",
+    "status": 200,
+    "timestamp": 1780406698022,
+    "url": "/api/trpc/collection.search,collection.count?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22sort%22%3A%22latest%22%2C%22set%22%3A%22*%22%2C%22filters%22%3A%5B%5D%2C%22limit%22%3A50%2C%22direction%22%3A%22forward%22%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22filters%22%3A%5B%5D%2C%22set%22%3A%22*%22%7D%7D%7D"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406699216,
+    "type": "click"
+  },
+  {
+    "key": "s",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701681,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701682,
+    "type": "input",
+    "value": "s"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701685,
+    "type": "attributes"
+  },
+  {
+    "key": "w",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701933,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "s"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"s\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701933,
+    "type": "input",
+    "value": "sw"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701934,
+    "type": "attributes"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701987,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "sw"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"sw\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701988,
+    "type": "input",
+    "value": "swa"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406701989,
+    "type": "attributes"
+  },
+  {
+    "key": "p",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406702124,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swa"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swa\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406702125,
+    "type": "input",
+    "value": "swap"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406702126,
+    "type": "attributes"
+  },
+  {
+    "api": "fetch",
+    "duration": 314,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":[{\"label\":\"Swap - Gothic\",\"value\":\"cmit3liy3017yjl04k377nxba\",\"type\":\"card\",\"data\":{\"variant\":{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"},\"pickles\":[{\"id\":\"cmpwo69pz00oj04l4o7fad5v1\",\"createdAt\":\"2026-06-02T13:24:49.460Z\",\"updatedAt\":\"2026-06-02T13:24:49.460Z\",\"quantity\":3,\"notes\":null,\"list\":null,\"collectionId\":\"cmpof0t2d00ip04l5hwx5kp3v\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"variantId\":\"cmit3liy3017yjl04k377nxba\"}],\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another targe…[truncated]",
+    "status": 200,
+    "timestamp": 1780406702942,
+    "url": "/api/trpc/search.variants?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22swap%22%7D%7D%7D"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": "swap"
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"swap\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406703441,
+    "type": "change",
+    "value": "swap"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "w-full flex justify-between items-center"
+      },
+      "classes": "w-full flex justify-between items-center",
+      "id": null,
+      "outerHTML": "<span class=\"w-full flex justify-between items-center\"><span class=\"line-clamp-1\">Swap - Gothic</span></span>",
+      "path": "div#radix-:r5v: > span.w-full.line-clamp-1 > span.w-full.flex",
+      "tag": "span",
+      "text": "Swap - Gothic"
+    },
+    "timestamp": 1780406703535,
+    "type": "click"
+  },
+  {
+    "added": [],
+    "attribute": "value",
+    "kind": "mutation",
+    "removed": [],
+    "target": {
+      "attrs": {
+        "class": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-co…",
+        "min": "0",
+        "placeholder": "Quick search...",
+        "type": "text",
+        "value": ""
+      },
+      "classes": "px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none",
+      "id": null,
+      "outerHTML": "<input type=\"text\" class=\"px-3 py-2 focus:!border-primary-border focus:shadow-primary-border-shadow grow truncate rounded-md border border-line-color bg-transparent outline-none transition-all focus:shadow-[0_0_0_0.25rem] rounded-bl-none rounded-tl-none\" placeholder=\"Quick search...\" min=\"0\" value=\"\">",
+      "path": "div.flex.flex-row:nth-of-type(2) > div.flex.flex-row > div.flex.items-center > div.w-full.xl:min-w-[20rem] > div.flex.items-center:nth-of-type(1) > div.w-full.-mb-2 > div.relative.mb-2 > input.px-3.py-2",
+      "tag": "input",
+      "text": ""
+    },
+    "timestamp": 1780406703556,
+    "type": "attributes"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\"></textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": ""
+    },
+    "timestamp": 1780406704429,
+    "type": "click"
+  },
+  {
+    "key": "Shift",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\"></textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": ""
+    },
+    "timestamp": 1780406704641,
+    "type": "keydown"
+  },
+  {
+    "key": "D",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\"></textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": ""
+    },
+    "timestamp": 1780406704795,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\"></textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": ""
+    },
+    "timestamp": 1780406704797,
+    "type": "input",
+    "value": "D"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">D</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "D"
+    },
+    "timestamp": 1780406704991,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">D</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "D"
+    },
+    "timestamp": 1780406704991,
+    "type": "input",
+    "value": "Da"
+  },
+  {
+    "key": "m",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Da</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Da"
+    },
+    "timestamp": 1780406705094,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Da</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Da"
+    },
+    "timestamp": 1780406705095,
+    "type": "input",
+    "value": "Dam"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Dam</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Dam"
+    },
+    "timestamp": 1780406705225,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Dam</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Dam"
+    },
+    "timestamp": 1780406705226,
+    "type": "input",
+    "value": "Dama"
+  },
+  {
+    "key": "g",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Dama</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Dama"
+    },
+    "timestamp": 1780406705358,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Dama</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Dama"
+    },
+    "timestamp": 1780406705363,
+    "type": "input",
+    "value": "Damag"
+  },
+  {
+    "key": "e",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damag</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damag"
+    },
+    "timestamp": 1780406705437,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damag</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damag"
+    },
+    "timestamp": 1780406705438,
+    "type": "input",
+    "value": "Damage"
+  },
+  {
+    "key": "d",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damage</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damage"
+    },
+    "timestamp": 1780406705613,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damage</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damage"
+    },
+    "timestamp": 1780406705615,
+    "type": "input",
+    "value": "Damaged"
+  },
+  {
+    "key": "Meta",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damaged"
+    },
+    "timestamp": 1780406708644,
+    "type": "keydown"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damaged"
+    },
+    "timestamp": 1780406708706,
+    "type": "keydown"
+  },
+  {
+    "key": "Shift",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damaged"
+    },
+    "timestamp": 1780406708827,
+    "type": "keydown"
+  },
+  {
+    "key": "1",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damaged"
+    },
+    "timestamp": 1780406709209,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">Damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "Damaged"
+    },
+    "timestamp": 1780406709210,
+    "type": "input",
+    "value": "1"
+  },
+  {
+    "key": " ",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1"
+    },
+    "timestamp": 1780406709375,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1"
+    },
+    "timestamp": 1780406709376,
+    "type": "input",
+    "value": "1 "
+  },
+  {
+    "key": "d",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 </textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1"
+    },
+    "timestamp": 1780406709543,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 </textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1"
+    },
+    "timestamp": 1780406709544,
+    "type": "input",
+    "value": "1 d"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 d</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 d"
+    },
+    "timestamp": 1780406709634,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 d</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 d"
+    },
+    "timestamp": 1780406709635,
+    "type": "input",
+    "value": "1 da"
+  },
+  {
+    "key": "m",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 da</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 da"
+    },
+    "timestamp": 1780406709722,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 da</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 da"
+    },
+    "timestamp": 1780406709724,
+    "type": "input",
+    "value": "1 dam"
+  },
+  {
+    "key": "a",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 dam</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 dam"
+    },
+    "timestamp": 1780406709833,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 dam</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 dam"
+    },
+    "timestamp": 1780406709834,
+    "type": "input",
+    "value": "1 dama"
+  },
+  {
+    "key": "g",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 dama</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 dama"
+    },
+    "timestamp": 1780406709995,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 dama</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 dama"
+    },
+    "timestamp": 1780406709996,
+    "type": "input",
+    "value": "1 damag"
+  },
+  {
+    "key": "e",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 damag</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 damag"
+    },
+    "timestamp": 1780406710072,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 damag</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 damag"
+    },
+    "timestamp": 1780406710073,
+    "type": "input",
+    "value": "1 damage"
+  },
+  {
+    "key": "d",
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 damage</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 damage"
+    },
+    "timestamp": 1780406710233,
+    "type": "keydown"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 damage</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 damage"
+    },
+    "timestamp": 1780406710236,
+    "type": "input",
+    "value": "1 damaged"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-prim…"
+      },
+      "classes": "flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0",
+      "id": null,
+      "outerHTML": "<textarea class=\"flex min-h-[80px] w-full rounded-md border border-line-color outline-none focus:!border-primary-border focus:shadow-primary-border-shadow file:bg-transparent px-3 py-2 text-base file:border-0 file:text-text-color file:font-bold disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus:shadow-[0_0_0_0.25rem] bg-transparent !mb-0\">1 damaged</textarea>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.mb-4.max-sm:mb-40:nth-of-type(1) > div.gallery-breakpoints.sm:ml-6:nth-of-type(2) > div:nth-of-type(5) > textarea.flex.min-h-[80px]",
+      "tag": "textarea",
+      "text": "1 damaged"
+    },
+    "timestamp": 1780406710617,
+    "type": "change",
+    "value": "1 damaged"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "fill": "none",
+        "height": "25",
+        "stroke": "currentColor",
+        "stroke-width": "0",
+        "viewBox": "0 0 15 15",
+        "width": "25",
+        "xmlns": "http://www.w3.org/2000/svg"
+      },
+      "classes": null,
+      "id": null,
+      "outerHTML": "<svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"0\" viewBox=\"0 0 15 15\" height=\"25\" width=\"25\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z\" fill=\"currentColor\"></path></svg>",
+      "path": "div.flex:nth-of-type(4) > div.mr-2 > div > div.relative.mb-2 > span.absolute.right-0 > div.flex.h-full > div.hover:border-primary.flex:nth-of-type(2) > svg",
+      "tag": "svg",
+      "text": ""
+    },
+    "timestamp": 1780406710704,
+    "type": "click"
+  },
+  {
+    "kind": "event",
+    "target": {
+      "attrs": {
+        "class": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none d…"
+      },
+      "classes": "rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]",
+      "id": null,
+      "outerHTML": "<button class=\"rounded-md inline-flex items-center justify-center gap-2 whitespace-nowrap transition-all disabled:pointer-events-none disabled:opacity-50 border-[1.5px] border-primary hover:text-white hover:bg-primary px-3 py-2 min-w-[5rem]\">Save</button>",
+      "path": "div#radix-:r3g: > div.flex.outline-none > div.animate-in.fade-in:nth-of-type(2) > button.rounded-md.inline-flex:nth-of-type(1)",
+      "tag": "button",
+      "text": "Save"
+    },
+    "timestamp": 1780406711899,
+    "type": "click"
+  },
+  {
+    "api": "fetch",
+    "duration": 257,
+    "kind": "network",
+    "method": "POST",
+    "requestBody": "{\"0\":{\"json\":{\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"variantId\":\"cmit3liy3017yjl04k377nxba\",\"quantity\":4,\"notes\":\"1 damaged\"}}}",
+    "responseBody": "[{\"result\":{\"data\":{\"json\":null,\"meta\":{\"values\":[\"undefined\"]}}}}]",
+    "status": 200,
+    "timestamp": 1780406712174,
+    "url": "/api/trpc/collection.updatePickle?batch=1"
+  },
+  {
+    "api": "fetch",
+    "duration": 232,
+    "kind": "network",
+    "method": "GET",
+    "requestBody": null,
+    "responseBody": "[{\"result\":{\"data\":{\"json\":{\"pickles\":[{\"card\":{\"id\":\"cmi7xo2cg0060s67y9t4vpzve\",\"slug\":\"swap\",\"name\":\"Swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"hotscore\":28920,\"elements\":[{\"id\":\"water\",\"name\":\"Water\"}],\"variants\":[{\"id\":\"cmit3liy3017yjl04k377nxba\",\"slug\":\"got-swap-b-s\",\"updatedAt\":\"2026-03-17T07:27:20.286Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-s.png\",\"finish\":\"Standard\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmit3liyt017zjl04vye16qef\",\"slug\":\"got-swap-b-f\",\"updatedAt\":\"2026-03-17T07:27:20.413Z\",\"printedAt\":\"2025-12-05T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/got-swap-b-f.png\",\"finish\":\"Foil\",\"product\":\"Booster\",\"typeText\":\"Exceptional Magic of unexpected exchange\",\"flavorText\":\"Order of the Golden Scepter sounds awfully close to \\\"Horde of the Gored Septarch.\\\" Good luck explaining that!\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmit3liwy017xjl04gskjb02y\",\"artistId\":\"cm1sb7dey004nxxa1irvmnbor\",\"setCard\":{\"id\":\"cmit3liwy017xjl04gskjb02y\",\"slug\":\"got-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmit36hm30000lb048bhd8on2\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmit36hm30000lb048bhd8on2\",\"code\":\"got\",\"status\":\"Released\",\"releasedAt\":\"2025-12-05T16:59:59.639Z\",\"name\":\"Gothic\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7dey004nxxa1irvmnbor\",\"slug\":\"aronjaart\",\"name\":\"AronjaArt\"}},{\"id\":\"cmi7xo2mm0062s67yewx2eoz8\",\"slug\":\"pro-swap-op-s\",\"updatedAt\":\"2026-03-17T07:20:45.788Z\",\"printedAt\":\"2025-08-01T00:00:00.000Z\",\"src\":\"https://d27a44hjr9gen3.cloudfront.net/cards/pro-swap-op-s.png\",\"finish\":\"Standard\",\"product\":\"Organized_Play\",\"typeText\":\"Exceptional Magic of unconventional exchange\",\"flavorText\":\"\",\"price\":null,\"priceId\":null,\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"setCardId\":\"cmi7xo2it0061s67yeo3lit6s\",\"artistId\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"setCard\":{\"id\":\"cmi7xo2it0061s67yeo3lit6s\",\"slug\":\"pro-swap\",\"type\":\"Magic\",\"category\":\"Spell\",\"rarity\":\"Exceptional\",\"slot\":\"Exceptional\",\"rulesText\":\"Swap the location of target minion or artifact with another target minion or artifact.\",\"cost\":3,\"attack\":null,\"defense\":null,\"life\":null,\"waterThreshold\":2,\"earthThreshold\":0,\"fireThreshold\":0,\"airThreshold\":0,\"setId\":\"cmi7xncgf0000s67yoatdq7b9\",\"cardId\":\"cmi7xo2cg0060s67y9t4vpzve\",\"set\":{\"id\":\"cmi7xncgf0000s67yoatdq7b9\",\"code\":\"pro\",\"status\":\"Released\",\"releasedAt\":\"2025-11-20T22:09:50.983Z\",\"name\":\"Promotional\"}},\"reverse\":null,\"artist\":{\"id\":\"cm1sb7u0c00aqxxa1gc00tlr6\",\"slug\":\"drew_tucker\",\"name\":\"Drew Tucker\"}}],\"re…[truncated]",
+    "status": 200,
+    "timestamp": 1780406712410,
+    "url": "/api/trpc/collection.search,collection.count?batch=1&input=%7B%220%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22sort%22%3A%22latest%22%2C%22set%22%3A%22*%22%2C%22filters%22%3A%5B%5D%2C%22limit%22%3A50%2C%22direction%22%3A%22forward%22%7D%7D%2C%221%22%3A%7B%22json%22%3A%7B%22query%22%3A%22%22%2C%22filters%22%3A%5B%5D%2C%22set%22%3A%22*%22%7D%7D%7D"
+  },
+  {
+    "kind": "meta",
+    "timestamp": 1780406716351,
+    "type": "stop"
+  }
+]

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Curiosa Importer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Curiosa Importer</h1>
+      <div id="tabBadge" class="badge badge-warn">Not on Curiosa</div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="replay">Replay</button>
+      <button class="tab" data-tab="record">Record</button>
+    </nav>
+
+    <!-- ─────────────── Replay tab ─────────────── -->
+    <section class="panel" data-panel="replay">
+      <label class="field">
+        <span>CSV file</span>
+        <input type="file" id="csvFile" accept=".csv,text/csv" />
+      </label>
+      <div id="csvSummary" class="muted small">No file loaded.</div>
+
+      <label class="field">
+        <span>Delay between rows (ms)</span>
+        <input
+          type="range"
+          id="delayRange"
+          min="200"
+          max="3000"
+          step="100"
+          value="800"
+        />
+        <output id="delayValue">800</output>
+      </label>
+
+      <label class="check">
+        <input type="checkbox" id="skipExisting" checked />
+        Skip rows already added in this session
+      </label>
+
+      <div class="row">
+        <button id="replayStart" class="primary" disabled>Start</button>
+        <button id="replayPause" disabled>Pause</button>
+        <button id="replayReset" disabled>Reset</button>
+      </div>
+
+      <progress id="progressBar" value="0" max="1"></progress>
+      <div id="progressLabel" class="small muted">Idle.</div>
+
+      <div class="logBox">
+        <div class="logHeader">
+          <span>Log</span>
+          <button id="downloadReport" class="link" disabled>
+            Download report.csv
+          </button>
+        </div>
+        <pre id="replayLog"></pre>
+      </div>
+    </section>
+
+    <!-- ─────────────── Record tab ─────────────── -->
+    <section class="panel hidden" data-panel="record">
+      <p class="small muted">
+        Manually add one Normal card and one Foil card (quantity ≥ 2 if you
+        can). Then stop and download the trace.
+      </p>
+
+      <div class="row">
+        <button id="recordStart" class="primary">Start recording</button>
+        <button id="recordStop" disabled>Stop</button>
+        <button id="recordClear">Clear</button>
+      </div>
+
+      <div class="stats">
+        <div><strong id="statEvents">0</strong><span>events</span></div>
+        <div><strong id="statMutations">0</strong><span>mutations</span></div>
+        <div><strong id="statNetwork">0</strong><span>network</span></div>
+      </div>
+
+      <div class="row">
+        <button id="downloadTrace" disabled>Download curiosa-trace.json</button>
+      </div>
+    </section>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
