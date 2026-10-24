@@ -46,18 +46,31 @@ function parseCsv(text) {
 
 function csvToCards(text) {
   const matrix = parseCsv(text).filter(r => r.length > 1);
-  if (!matrix.length) return [];
-  const header = matrix[0].map(h => h.trim());
+  if (!matrix.length) return { cards: [], format: 'Unknown' };
+  const header = matrix[0].map(h => h.replace(/^\uFEFF/, '').trim());
+  const findColumn = (...names) => {
+    for (const name of names) {
+      const index = header.indexOf(name);
+      if (index !== -1) return index;
+    }
+    return -1;
+  };
   const idx = {
-    name: header.indexOf('Product Name'),
-    set: header.indexOf('Set'),
-    variance: header.indexOf('Variance'),
-    quantity: header.indexOf('Quantity'),
-    notes: header.indexOf('Notes'),
+    name: findColumn('Product Name', 'Card Name'),
+    set: findColumn('Set', 'Set Name'),
+    variance: findColumn('Variance', 'Finish'),
+    quantity: findColumn('Quantity'),
+    notes: findColumn('Notes'),
+    product: findColumn('Product'),
+    cardSlug: findColumn('Card Slug'),
+    printedAt: findColumn('Printed At'),
   };
   if (idx.name === -1 || idx.quantity === -1) {
-    throw new Error('CSV missing "Product Name" or "Quantity" column.');
+    throw new Error(
+      'Unsupported CSV: expected "Product Name" or "Card Name", plus "Quantity".',
+    );
   }
+  const format = header.includes('Card Name') ? 'Kurio' : 'Collectr';
   const out = [];
   for (let r = 1; r < matrix.length; r++) {
     const row = matrix[r];
@@ -68,26 +81,48 @@ function csvToCards(text) {
     const qty = parseInt(row[idx.quantity] || '0', 10) || 0;
     if (qty <= 0) continue;
     const notes = idx.notes >= 0 ? (row[idx.notes] || '').trim() : '';
-    // strip trailing " (Foil)" when variance says foil, so search uses base name
-    const baseName = variance.toLowerCase() === 'foil'
-      ? name.replace(/\s*\(foil\)\s*$/i, '')
-      : name;
-    out.push({ row: r, name: baseName, displayName: name, set, variance, quantity: qty, notes });
+    // Collectr puts printing details in repeated suffixes, for example
+    // "Sorcerer (Foil) (Box Topper)". Remove known suffixes from the card name
+    // while retaining product information for printing selection.
+    let baseName = name;
+    let product = idx.product >= 0 ? (row[idx.product] || '').trim() || null : null;
+    let parsedVariance = variance;
+    let suffix;
+    do {
+      suffix = baseName.match(/\s*\((foil|box topper)\)\s*$/i);
+      if (suffix) {
+        if (suffix[1].toLowerCase() === 'box topper') product = 'BoxTopper';
+        if (suffix[1].toLowerCase() === 'foil') parsedVariance = 'Foil';
+        baseName = baseName.slice(0, suffix.index).trim();
+      }
+    } while (suffix);
+    out.push({
+      row: r,
+      name: baseName,
+      displayName: name,
+      set,
+      variance: parsedVariance,
+      product,
+      quantity: qty,
+      notes,
+      cardSlug: idx.cardSlug >= 0 ? (row[idx.cardSlug] || '').trim() : '',
+      printedAt: idx.printedAt >= 0 ? (row[idx.printedAt] || '').trim() : '',
+    });
   }
-  return out;
+  return { cards: out, format };
 }
 
 // ---------------------------------------------------------------------------
 // Messaging helpers
 // ---------------------------------------------------------------------------
 
-async function getCuriosaTab() {
-  // Prefer the active tab if it's on Curiosa, else any Curiosa tab.
+async function getSorceryTab() {
+  // Prefer the active tab if it's on Sorcery, else any Sorcery tab.
   const [active] = await chrome.tabs.query({ active: true, currentWindow: true });
-  if (active && active.url && active.url.startsWith('https://curiosa.io/')) {
+  if (active && active.url && active.url.startsWith('https://sorcerytcg.com/')) {
     return active;
   }
-  const tabs = await chrome.tabs.query({ url: 'https://curiosa.io/*' });
+  const tabs = await chrome.tabs.query({ url: 'https://sorcerytcg.com/*' });
   return tabs[0] || null;
 }
 
@@ -103,8 +138,8 @@ async function ensureContentInjected(tabId) {
 }
 
 async function sendToContent(message) {
-  const tab = await getCuriosaTab();
-  if (!tab) throw new Error('No Curiosa tab open.');
+  const tab = await getSorceryTab();
+  if (!tab) throw new Error('No sorcerytcg.com tab open.');
   try {
     return await chrome.tabs.sendMessage(tab.id, message);
   } catch (err) {
@@ -167,18 +202,20 @@ $('csvFile').addEventListener('change', async (e) => {
   if (!file) return;
   try {
     const text = await file.text();
-    state.rows = csvToCards(text);
+    const parsed = csvToCards(text);
+    state.rows = parsed.cards;
     state.unmatched = [];
     state.added.clear();
     state.currentIndex = 0;
     const totalQty = state.rows.reduce((s, r) => s + r.quantity, 0);
-    $('csvSummary').textContent = `${state.rows.length} rows / ${totalQty} cards.`;
-    $('replayStart').disabled = false;
+    $('csvSummary').textContent =
+      `${parsed.format}: ${state.rows.length} rows / ${totalQty} cards.`;
+    $('replayStart').disabled = state.rows.length === 0;
     $('replayReset').disabled = false;
     $('progressBar').value = 0;
     $('progressBar').max = state.rows.length;
     $('progressLabel').textContent = `Ready. ${state.rows.length} rows queued.`;
-    log(`Loaded ${file.name}: ${state.rows.length} rows.`);
+    log(`Loaded ${file.name} (${parsed.format}): ${state.rows.length} rows.`);
   } catch (err) {
     $('csvSummary').textContent = `Error: ${err.message}`;
     log(`CSV error: ${err.message}`, 'err');
@@ -301,7 +338,7 @@ $('downloadReport').addEventListener('click', () => {
       .map(v => `"${String(v).replace(/"/g, '""')}"`)
       .join(',')
   ).join('\n');
-  downloadBlob(header + body, 'curiosa-report.csv', 'text/csv');
+  downloadBlob(header + body, 'sorcerytcg-report.csv', 'text/csv');
 });
 
 function downloadBlob(content, filename, mime) {
@@ -357,7 +394,7 @@ $('recordClear').addEventListener('click', async () => {
 $('downloadTrace').addEventListener('click', async () => {
   const resp = await sendToBackground({ type: 'getTrace' });
   const trace = (resp && resp.trace) || [];
-  downloadBlob(JSON.stringify(trace, null, 2), 'curiosa-trace.json', 'application/json');
+  downloadBlob(JSON.stringify(trace, null, 2), 'sorcerytcg-trace.json', 'application/json');
 });
 
 function refreshStats() {
@@ -379,15 +416,15 @@ async function pollStats() {
 }
 
 // ---------------------------------------------------------------------------
-// Init: check for Curiosa tab
+// Init: check for a Sorcery tab
 // ---------------------------------------------------------------------------
 
 (async function init() {
-  const tab = await getCuriosaTab();
+  const tab = await getSorceryTab();
   if (tab) {
-    setBadge('On Curiosa', 'ok');
+    setBadge('On Sorcery', 'ok');
   } else {
-    setBadge('Open curiosa.io', 'warn');
+    setBadge('Open sorcerytcg.com', 'warn');
   }
   // Restore stats if a recording exists
   const resp = await sendToBackground({ type: 'getStats' }).catch(() => null);

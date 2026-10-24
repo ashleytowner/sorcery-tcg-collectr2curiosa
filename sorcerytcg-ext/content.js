@@ -1,14 +1,11 @@
 'use strict';
 
 // ===========================================================================
-// Curiosa tRPC API — discovered from curiosa-trace.json
+// Sorcery APIs
 // ===========================================================================
 
 const TRPC_BASE = '/api/trpc';
-
-// XPath kept only for the Recorder's MutationObserver scope.
-const QUICK_SEARCH_XPATH =
-  '//*[@id="__next"]/main/div/div/div[2]/div/div[2]/div/div/div/div/div/div';
+const CATALOG_URL = 'https://api.sorcerytcg.com/api/cards';
 
 // ===========================================================================
 // Inject the page-world script for fetch/XHR shim
@@ -21,24 +18,13 @@ const QUICK_SEARCH_XPATH =
     s.onload = () => s.remove();
     (document.head || document.documentElement).appendChild(s);
   } catch (e) {
-    console.warn('[curiosa-ext] inject failed', e);
+    console.warn('[sorcerytcg-ext] inject failed', e);
   }
 })();
 
 // ===========================================================================
 // Utilities
 // ===========================================================================
-
-function resolveContainer() {
-  const r = document.evaluate(
-    QUICK_SEARCH_XPATH,
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null,
-  );
-  return r && r.singleNodeValue;
-}
 
 function getCssPath(el) {
   if (!(el instanceof Element)) return '';
@@ -87,8 +73,9 @@ function summarize(el) {
 
 function normalizeName(s) {
   return (s || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
-    .replace(/\s*\(foil\)\s*$/i, '')
     .replace(/[^a-z0-9 ]+/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
@@ -139,8 +126,7 @@ const recorder = {
       document.addEventListener(t, h, true);
     }
 
-    // Mutation observer — try Quick Search container, else fall back to body
-    const root = resolveContainer() || document.body;
+    const root = document.body;
     this.observer = new MutationObserver((records) => {
       if (!this.active) return;
       for (const m of records) {
@@ -211,37 +197,40 @@ const recorder = {
 window.addEventListener('message', (e) => {
   if (e.source !== window) return;
   const data = e.data;
-  if (!data || data.source !== '__curiosa_ext__') return;
+  if (!data || data.source !== '__sorcerytcg_ext__') return;
   recorder.ingestNetwork(data.payload);
 });
 
 // ===========================================================================
-// tRPC client (same-origin fetch from content script carries session cookies)
+// API clients. The public catalogue resolves Collectr rows to printing IDs;
+// the same-origin tRPC mutation carries the user's Sorcery session cookie.
 // ===========================================================================
 
-async function trpcSearchVariants(query) {
-  const input = encodeURIComponent(JSON.stringify({ 0: { json: { query } } }));
-  const url = `${TRPC_BASE}/search.variants?batch=1&input=${input}`;
-  const resp = await fetch(url, {
-    credentials: 'include',
-    headers: { accept: 'application/json' },
-  });
-  if (!resp.ok) throw new Error(`search HTTP ${resp.status}`);
-  const data = await resp.json();
-  return (data && data[0] && data[0].result && data[0].result.data && data[0].result.data.json) || [];
+let cataloguePromise = null;
+
+async function getCatalogue() {
+  if (!cataloguePromise) {
+    cataloguePromise = fetch(CATALOG_URL, {
+      credentials: 'omit',
+      headers: { accept: 'application/json' },
+    }).then(async resp => {
+      if (!resp.ok) throw new Error(`catalogue HTTP ${resp.status}`);
+      const data = await resp.json();
+      if (!Array.isArray(data)) throw new Error('catalogue returned an unexpected response');
+      return data;
+    }).catch(err => {
+      cataloguePromise = null;
+      throw err;
+    });
+  }
+  return cataloguePromise;
 }
 
-async function trpcUpdatePickle({ cardId, variantId, quantity, notes }) {
-  const hasNotes = typeof notes === 'string' && notes.trim().length > 0;
-  const body = hasNotes
-    ? { 0: { json: { cardId, variantId, quantity, notes } } }
-    : {
-        0: {
-          json: { cardId, variantId, quantity, notes: null },
-          meta: { values: { notes: ['undefined'] } },
-        },
-      };
-  const resp = await fetch(`${TRPC_BASE}/collection.updatePickle?batch=1`, {
+async function trpcUpdateCard({ printingId, quantity, notes }) {
+  const input = { printingId, quantity };
+  if (typeof notes === 'string' && notes.trim()) input.notes = notes.trim();
+  const body = { 0: { json: input } };
+  const resp = await fetch(`${TRPC_BASE}/inventory.updateCard?batch=1`, {
     method: 'POST',
     credentials: 'include',
     headers: { 'content-type': 'application/json', accept: 'application/json' },
@@ -249,7 +238,10 @@ async function trpcUpdatePickle({ cardId, variantId, quantity, notes }) {
   });
   if (!resp.ok) {
     const text = await resp.text().catch(() => '');
-    throw new Error(`updatePickle HTTP ${resp.status}: ${text.slice(0, 200)}`);
+    if (resp.status === 401) {
+      throw new Error('not signed in to sorcerytcg.com');
+    }
+    throw new Error(`updateCard HTTP ${resp.status}: ${text.slice(0, 200)}`);
   }
   const data = await resp.json().catch(() => null);
   const node = data && data[0];
@@ -260,56 +252,71 @@ async function trpcUpdatePickle({ cardId, variantId, quantity, notes }) {
 }
 
 // ===========================================================================
-// Variant matcher
+// Printing matcher
 // ===========================================================================
 
-function pickVariant(variants, row) {
-  const wantFinish = (row.variance || '').toLowerCase() === 'foil' ? 'Foil' : 'Standard';
-  const wantSet = (row.set || '').toLowerCase().trim();
+function wantedFinish(variance) {
+  const value = (variance || '').toLowerCase();
+  if (value.includes('rainbow')) return 'Rainbow';
+  if (value.includes('foil')) return 'Foil';
+  return 'Standard';
+}
+
+function pickPrinting(cards, row) {
+  const wantFinish = wantedFinish(row.variance);
+  const wantSet = normalizeName(row.set);
   const wantName = normalizeName(row.name);
+  const sluggedCards = row.cardSlug
+    ? cards.filter(card => card && card.slug === row.cardSlug)
+    : [];
+  const namedCards = sluggedCards.length
+    ? sluggedCards
+    : cards.filter(card => normalizeName(card && card.name) === wantName);
+  if (!namedCards.length) return { error: 'card name not found in official catalogue' };
 
-  const enriched = variants
-    .map(v => {
-      const variant = (v && v.data && v.data.variant) || null;
-      if (!variant) return null;
-      // card lives at variant.card, NOT v.data.card
-      const card = variant.card || null;
-      const setName = (variant.setCard && variant.setCard.set && variant.setCard.set.name) || '';
-      const cardName = (card && card.name) || (v && v.label ? v.label.split(' - ')[0] : '');
-      const cardId = variant.cardId || (card && card.id) || null;
-      if (!cardId || !variant.id) return null;
-      return {
-        v,
-        variantId: variant.id,
-        cardId,
-        slug: variant.slug || '',
-        finish: variant.finish || '',
-        setName,
-        cardName,
-        normName: normalizeName(cardName),
-      };
-    })
-    .filter(Boolean);
+  let candidates = namedCards.flatMap(card =>
+    (card.printings || []).map(printing => ({ card, printing })),
+  ).filter(({ printing }) => printing && printing.id && printing.meta);
 
-  if (!enriched.length) return null;
+  if (wantSet) {
+    candidates = candidates.filter(({ printing }) =>
+      normalizeName(printing.set && printing.set.name) === wantSet,
+    );
+  }
+  candidates = candidates.filter(({ printing }) => printing.meta.finish === wantFinish);
 
-  const sameName = enriched.filter(e => e.normName === wantName);
-  const pool = sameName.length ? sameName : enriched;
+  if (row.printedAt) {
+    candidates = candidates.filter(({ printing }) => printing.printedAt === row.printedAt);
+  }
 
-  // exact: finish + set
-  let hit = pool.find(e => e.finish === wantFinish && e.setName.toLowerCase() === wantSet);
-  if (hit) return hit;
+  if (row.product) {
+    candidates = candidates.filter(({ printing }) => printing.meta.product === row.product);
+  } else if (candidates.length > 1) {
+    const boosters = candidates.filter(({ printing }) => printing.meta.product === 'Booster');
+    if (boosters.length === 1) candidates = boosters;
+  }
 
-  // finish + setName contains wanted (handles "Gothic" vs "Gothic | Booster" labels)
-  hit = pool.find(e => e.finish === wantFinish && wantSet && e.setName.toLowerCase().includes(wantSet));
-  if (hit) return hit;
+  if (!candidates.length) {
+    const product = row.product ? ` / ${row.product}` : '';
+    const date = row.printedAt ? ` printed ${row.printedAt}` : '';
+    return {
+      error: `no ${wantFinish}${product} printing in set "${row.set || ''}"${date}`,
+    };
+  }
+  if (candidates.length > 1) {
+    const choices = candidates.map(({ printing }) => printing.slug).join(', ');
+    return { error: `ambiguous printing: ${choices}` };
+  }
 
-  // finish only (single set, or set not filled in CSV)
-  const finishOnly = pool.filter(e => e.finish === wantFinish);
-  if (finishOnly.length === 1) return finishOnly[0];
-
-  // last resort: any variant with matching name
-  return pool[0] || null;
+  const { card, printing } = candidates[0];
+  return {
+    cardId: card.id,
+    printingId: printing.id,
+    slug: printing.slug || '',
+    finish: printing.meta.finish,
+    product: printing.meta.product,
+    setName: (printing.set && printing.set.name) || '',
+  };
 }
 
 // ===========================================================================
@@ -318,29 +325,19 @@ function pickVariant(variants, row) {
 
 const replayer = {
   async addRow(row) {
-    let variants;
+    let cards;
     try {
-      variants = await trpcSearchVariants(row.name);
+      cards = await getCatalogue();
     } catch (err) {
-      return { ok: false, reason: `search failed: ${err.message}` };
+      return { ok: false, reason: `catalogue failed: ${err.message}` };
     }
 
-    if (!variants.length) {
-      return { ok: false, reason: 'no search results' };
-    }
-
-    const match = pickVariant(variants, row);
-    if (!match) {
-      return { ok: false, reason: `no ${row.variance || 'Standard'} variant in set "${row.set || ''}"` };
-    }
-    if (!match.cardId || !match.variantId) {
-      return { ok: false, reason: 'matched variant missing ids' };
-    }
+    const match = pickPrinting(cards, row);
+    if (match.error) return { ok: false, reason: match.error };
 
     try {
-      await trpcUpdatePickle({
-        cardId: match.cardId,
-        variantId: match.variantId,
+      await trpcUpdateCard({
+        printingId: match.printingId,
         quantity: row.quantity,
         notes: row.notes || null,
       });
@@ -353,6 +350,7 @@ const replayer = {
       matchedSlug: match.slug,
       matchedSet: match.setName,
       matchedFinish: match.finish,
+      matchedProduct: match.product,
     };
   },
 };
@@ -386,4 +384,4 @@ chrome.runtime.sendMessage({ type: 'getStats' }).then((resp) => {
   }
 }).catch(() => {});
 
-console.log('[curiosa-ext] content script loaded.');
+console.log('[sorcerytcg-ext] content script loaded.');

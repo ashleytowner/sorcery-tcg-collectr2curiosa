@@ -1,16 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Curiosa Collection Importer",
-  "version": "0.1.0",
-  "description": "Bulk-import a Sorcery collection from CSV into curiosa.io, with a built-in DOM/network recorder for tuning the replay flow.",
-  "permissions": ["storage", "scripting", "activeTab"],
-  "host_permissions": ["https://curiosa.io/*"],
+  "name": "Sorcery Collection Importer",
+  "version": "0.3.0",
+  "description": "Bulk-import a Sorcery collection from a Collectr or Kurio CSV into sorcerytcg.com.",
+  "permissions": ["storage", "scripting", "activeTab", "tabs"],
+  "host_permissions": [
+    "https://sorcerytcg.com/*",
+    "https://api.sorcerytcg.com/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Curiosa Importer",
-    "default_popup": "popup.html",
+    "default_title": "Sorcery Collection Importer",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
@@ -24,7 +26,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://curiosa.io/*"],
+      "matches": ["https://sorcerytcg.com/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
@@ -32,7 +34,7 @@
   "web_accessible_resources": [
     {
       "resources": ["inject.js"],
-      "matches": ["https://curiosa.io/*"]
+      "matches": ["https://sorcerytcg.com/*"]
     }
   ]
 }

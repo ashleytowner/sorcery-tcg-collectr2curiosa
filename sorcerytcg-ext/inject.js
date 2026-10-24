@@ -1,9 +1,9 @@
 // Page-world shim. Monkey-patches fetch + XHR and posts request/response
-// metadata to the content script via window.postMessage tagged __curiosa_ext__.
+// metadata to the content script via window.postMessage tagged __sorcerytcg_ext__.
 
 (function () {
-  if (window.__curiosa_ext_injected__) return;
-  window.__curiosa_ext_injected__ = true;
+  if (window.__sorcerytcg_ext_injected__) return;
+  window.__sorcerytcg_ext_injected__ = true;
 
   const MAX_BODY = 4096;
 
@@ -16,7 +16,7 @@
 
   function post(payload) {
     try {
-      window.postMessage({ source: '__curiosa_ext__', payload }, '*');
+      window.postMessage({ source: '__sorcerytcg_ext__', payload }, '*');
     } catch (_) { /* ignore */ }
   }
 
@@ -68,8 +68,8 @@
   const origSend = XHR.prototype.send;
 
   XHR.prototype.open = function (method, url) {
-    this.__curiosa_method__ = method;
-    this.__curiosa_url__ = url;
+    this.__sorcerytcg_method__ = method;
+    this.__sorcerytcg_url__ = url;
     return origOpen.apply(this, arguments);
   };
 
@@ -87,8 +87,8 @@
       post({
         kind: 'network',
         api: 'xhr',
-        method: xhr.__curiosa_method__,
-        url: xhr.__curiosa_url__,
+        method: xhr.__sorcerytcg_method__,
+        url: xhr.__sorcerytcg_url__,
         status: xhr.status,
         duration: Math.round(performance.now() - t0),
         requestBody: reqBody,

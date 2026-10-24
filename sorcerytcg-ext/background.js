@@ -4,10 +4,27 @@
 // popup or a brief navigation can't drop it. Routes getTrace/getStats/clear.
 
 const KEYS = {
-  trace: 'curiosa_trace',
-  stats: 'curiosa_stats',
-  recording: 'curiosa_recording',
+  trace: 'sorcerytcg_trace',
+  stats: 'sorcerytcg_stats',
+  recording: 'sorcerytcg_recording',
 };
+
+const IMPORTER_URL = chrome.runtime.getURL('popup.html');
+
+// A browser-action popup is destroyed when Chrome's file chooser takes focus.
+// Open the importer as a persistent extension tab instead.
+chrome.action.onClicked.addListener(async () => {
+  const tabs = await chrome.tabs.query({});
+  const existing = tabs.find(tab => tab.url && tab.url.startsWith(IMPORTER_URL));
+  if (existing && existing.id !== undefined) {
+    await chrome.tabs.update(existing.id, { active: true });
+    if (existing.windowId !== undefined) {
+      await chrome.windows.update(existing.windowId, { focused: true });
+    }
+    return;
+  }
+  await chrome.tabs.create({ url: IMPORTER_URL });
+});
 
 async function readSession(key, fallback) {
   const obj = await chrome.storage.session.get(key);
